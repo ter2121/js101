@@ -1,8 +1,10 @@
 let readlineSync = require('readline-sync');
-let num = readlineSync.question("what is your number (it must be greater than 0) \n");
-let choice = readlineSync.question("add (press 'a') or multiply (press 'm') \n");
+let choice = readlineSync.question("Would you like to add (press 'a') or multiply (press 'm') consecutive integers? \n");
+let num = parseInt(readlineSync.question("Pick an integer greater than 0 \n"));
+
 
 function conInt (num, choice) {
+  if(typeof num === 'number' && num > 0)
   switch (choice) {
     case 'a':
       let addTotal = 0
@@ -19,8 +21,8 @@ function conInt (num, choice) {
       }
       break
     default:
-      console.log('not an option')
-  }
+      console.log('Not an option. Please press "a" or "m".')
+  } else {console.log('You must enter an integer greater than 0')}
 }
 
 conInt(num, choice)
