@@ -1,6 +1,7 @@
 const readline = require('readline-sync');
-const MESSAGES = require('./calculatorFancyJSON.json');
+const MESSAGES = require('./mortgageCalcBonusMSG.json');
 
+// Adds a check for commas which were causing problems
 function invalidInput(number) {
   return number.includes(',') ||
          number.trim() === '' ||
