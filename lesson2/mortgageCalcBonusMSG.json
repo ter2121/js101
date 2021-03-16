@@ -1,0 +1,9 @@
+{
+  "welcome": "Greetings! Welcome to the Mortgage Calculator App",
+  "loanAmount": "What is your loan amount?\n",
+  "loanAmountVerification": "Please ensure your input is a positive integer that contains no commmas.",
+  "APR": "What's the APR? Please input in decimal form (ex 5% = .05, 15% = .15)",
+  "annualInterestRateVerification": "That is not a valid entry. Please input a valid APR in decimal form.",
+  "loanDurationYears": "How many years does the loan last. Please input only positive integers (ex 1, 4, 8)",
+  "doAgain": "That was fun. Would you like to do it again? (y/n)"
+}
