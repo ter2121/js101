@@ -10,6 +10,7 @@ function invalidNumber(number) {
 
 prompt('Welcome to Calculator!');
 
+
 prompt("What's the first number?");
 let number1 = readline.question();
 
