@@ -7,6 +7,6 @@ function multiply (arg1, arg2) {
   console.log(Number(arg1) * Number(arg2));
 }
 
-multiply(arg0,arg2)
+multiply(arg0,arg2);
 multiply(arg1,arg2);
 multiply(arg2,arg3);
