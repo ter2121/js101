@@ -31,10 +31,13 @@ function buildNumber (array) {
   return placeHolder
 }
 
-function stringToInteger(string) {
+function signedStringToInteger(string) {
   let cleanString = signCheck(string)
   let stringArray = cleanString.split('').map(char => CONVERSION[char])
-  console.log(buildNumber(stringArray))
+  let unSigned = buildNumber(stringArray);
+  if (string[0] === '-'){
+    console.log(-1 * unSigned)
+  } else {console.log(unSigned)}
 }
 
-stringToInteger(stringExample)
+signedStringToInteger(stringExample)
