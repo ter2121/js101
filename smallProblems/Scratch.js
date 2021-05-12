@@ -173,41 +173,48 @@
 
 // deleteVowels(['green', 'YELLOW', 'black', 'white'])
 
-function caseCounter (input){
-  let inputString = input
-  let resultObj = {lowercase:0,uppercase:0,neither:0}
-  function helperLower(countLow){
-    let count = 0
-    for(let i=0; i < countLow.length; i++){
-      if(countLow[i] >= 'a' && countLow[i] <= 'z'){
-        count ++
-      }
-    }
-    resultObj['lowercase']=count
-  }
-  function helperUpper(countHigh){
-    let count = 0
-    for(let i=0; i < countHigh.length; i++){
-      if(countHigh[i] >= 'A' && countHigh[i] <= 'Z'){
-        count ++
-      }
-    }
-    resultObj['uppercase']=count
-  }
-  function helperNeither(countNone){
-    let count = 0
-    for(let i=0; i < countNone.length; i++){
-      if(!((countNone[i] >= 'A') && (countNone[i] <= 'z'))){
-        console.log(countNone[i])
-        count ++
-      }
-    }
-    resultObj['neither']=count
-  }
-  helperLower(inputString)
-  helperUpper(inputString)
-  helperNeither(inputString)
-  console.log(resultObj)
+// function caseCounter (input){
+//   let inputString = input
+//   let resultObj = {lowercase:0,uppercase:0,neither:0}
+//   function helperLower(countLow){
+//     let count = 0
+//     for(let i=0; i < countLow.length; i++){
+//       if(countLow[i] >= 'a' && countLow[i] <= 'z'){
+//         count ++
+//       }
+//     }
+//     resultObj['lowercase']=count
+//   }
+//   function helperUpper(countHigh){
+//     let count = 0
+//     for(let i=0; i < countHigh.length; i++){
+//       if(countHigh[i] >= 'A' && countHigh[i] <= 'Z'){
+//         count ++
+//       }
+//     }
+//     resultObj['uppercase']=count
+//   }
+//   function helperNeither(countNone){
+//     let count = 0
+//     for(let i=0; i < countNone.length; i++){
+//       if(!((countNone[i] >= 'A') && (countNone[i] <= 'z'))){
+//         console.log(countNone[i])
+//         count ++
+//       }
+//     }
+//     resultObj['neither']=count
+//   }
+//   helperLower(inputString)
+//   helperUpper(inputString)
+//   helperNeither(inputString)
+//   console.log(resultObj)
+// }
+
+// caseCounter('dfDD$$$$$')
+
+
+function isPalindrome (input){
+
 }
 
-caseCounter('dfDD$$$$$')
+isPalindrome('Madam'); 
