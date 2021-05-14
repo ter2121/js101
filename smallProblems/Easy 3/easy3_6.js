@@ -1,1 +1,0 @@
-readline + template literal for each sentence
