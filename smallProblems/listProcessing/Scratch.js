@@ -1,3 +1,19 @@
+function multPairs(array1,array2){
+  let resultArr = [];
+  for(let i = 0; i < array1.length; i++){
+    for(let j = 0; j < array2.length; j++){
+      resultArr.push(array1[i]*array2[j]);
+    }
+  }
+  sortedResult = resultArr.sort((a,b)=> a-b);
+  console.log(sortedResult)
+}
+
+multPairs([2,4],[4,3,2,1])
+
+
+
+
 // function leadString (input) {
 //   let inString = input;
 //   subStrArr = [];
@@ -57,18 +73,18 @@
 
 // sumSums([1,5,7,3])
 
-function groceryList (input) {
-  inArr = input;
-  resultArr = [];
-  for (let i = 0; i < inArr.length; i++) {
-    el = inArr[i]
-    fruit = el[0]
-    multiple = el[1]
-    for(let j = 0; j < multiple; j++) {
-      resultArr.push(fruit)
-    }
-  }
-  console.log(resultArr)
-}
+// function groceryList (input) {
+//   inArr = input;
+//   resultArr = [];
+//   for (let i = 0; i < inArr.length; i++) {
+//     el = inArr[i]
+//     fruit = el[0]
+//     multiple = el[1]
+//     for(let j = 0; j < multiple; j++) {
+//       resultArr.push(fruit)
+//     }
+//   }
+//   console.log(resultArr)
+// }
 
-groceryList([['apple', 3], ['orange', 1], ['banana', 2]])
+// groceryList([['apple', 3], ['orange', 1], ['banana', 2]])
