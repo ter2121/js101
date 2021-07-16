@@ -1,15 +1,15 @@
-function multPairs(array1,array2){
-  let resultArr = [];
-  for(let i = 0; i < array1.length; i++){
-    for(let j = 0; j < array2.length; j++){
-      resultArr.push(array1[i]*array2[j]);
-    }
-  }
-  sortedResult = resultArr.sort((a,b)=> a-b);
-  console.log(sortedResult)
-}
+// function multPairs(array1,array2){
+//   let resultArr = [];
+//   for(let i = 0; i < array1.length; i++){
+//     for(let j = 0; j < array2.length; j++){
+//       resultArr.push(array1[i]*array2[j]);
+//     }
+//   }
+//   sortedResult = resultArr.sort((a,b)=> a-b);
+//   console.log(sortedResult)
+// }
 
-multPairs([2,4],[4,3,2,1])
+// multPairs([2,4],[4,3,2,1])
 
 
 
