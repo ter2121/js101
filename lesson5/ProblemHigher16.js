@@ -20,15 +20,15 @@ Algorithm:
   - return resultObj
 */
 
-let resultObj = {}
+// let resultObj = {}
 
-arr.forEach( subArrayOut =>
-  subArrayOut.forEach( subArrayIn =>
-    resultObj[subArrayOut[0]] = subArrayIn
-  )
-)
+// arr.forEach( subArrayOut =>
+//   subArrayOut.forEach( subArrayIn =>
+//     resultObj[subArrayOut[0]] = subArrayIn
+//   )
+// )
 
-console.log(resultObj)
+// console.log(resultObj)
 
 
 // BETTER SOLUTION, just one forEach
@@ -43,3 +43,4 @@ arr.forEach(subarray => {
 
 obj; // { a: 1, b: 'two', sea: { c: 3 }, D: [ 'a', 'b', 'c' ] }
 */
+
