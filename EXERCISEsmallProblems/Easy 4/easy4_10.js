@@ -18,7 +18,7 @@ Algo
     < wordArray.length
     Let wordElement = wordArray[i] 
     Conditional:
-      if length 1: no change
+      if wordElement.length = 1: no change
       if length 2: reverse
       else length >=3: str[length-1]+str.slice(1,length-1)+str[0]
 */

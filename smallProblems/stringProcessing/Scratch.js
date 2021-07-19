@@ -14,6 +14,7 @@
 // }
 
 // staggeredCaps('ignore 77 the 4444 numbers')
+
 function howLong (input) {
   let inArr = input.split(" ");
   let resultArr = [];
